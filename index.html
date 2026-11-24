@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversor de Unidades</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>Conversor de Unidades</h1>
+
+        <h3>Ingresa tu cantidad en centímetros</h3>
+
+        <input type="number" id="cantidad" placeholder="Cantidad en cm">
+
+        <div class="unidades">
+
+            <label>Milímetros</label>
+            <input type="text" id="milimetros" readonly>
+
+            <label>Metros</label>
+            <input type="text" id="metros" readonly>
+
+            <label>Kilómetros</label>
+            <input type="text" id="kilometros" readonly>
+
+            <label>Pulgadas</label>
+            <input type="text" id="pulgadas" readonly>
+
+        </div>
+
+        <button onclick="calcular()">Calcular</button>
+
+        <button onclick="limpiar()">Limpiar</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
